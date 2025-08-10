@@ -1,0 +1,1 @@
+window.addEventListener('scroll',function(){const navbar=document.getElementById('navbar');if(document.body.scrollTop>500||document.documentElement.scrollTop>500){navbar.classList.add('scrolled');}else{navbar.classList.remove('scrolled');}});
